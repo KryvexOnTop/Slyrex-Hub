@@ -105,7 +105,7 @@ AutoFarm:AddSwitch("🧘 Situps", function(bool)
 end)
 
 AutoFarm:AddLabel("----------------------------")
-AutoFarm:AddLabel("💨 Treadmill Farm")
+AutoFarm:AddLabel("⚡️ Speed Farm")
 
 local VirtualInputManager = game:GetService("VirtualInputManager")
 local Players = game:GetService("Players")
@@ -114,11 +114,11 @@ local Player = Players.LocalPlayer
 
 local Locations = {
     {name = "🏭 Industrial Treadmill +20 xp", pos = Vector3.new(-4989.90, 81.62, 5414.85)},
-    {name = "🌿 Jungle Treadmill +8 xp", pos = Vector3.new(-8131.86, 25.77, 2818.17)},
-    {name = "🔱 Legends Treadmill +7 xp", pos = Vector3.new(4365.82, 997.14, -3632.9)},
-    {name = "✨ Mythical Treadmill +6 xp", pos = Vector3.new(2661.67, 19.41, 932.09)},
-    {name = "🏠 Spawn Treadmill +5 xp", pos = Vector3.new(-230.43, 8.16, -102.18)},
-    {name = "👟 Tiny Treadmill +1 xp", pos = Vector3.new(55.64, 5.16, 1947.60)}
+    {name = "🪴 Jungle Treadmill +8 xp", pos = Vector3.new(-8131.86, 25.77, 2818.17)},
+    {name = "👑 Legends Treadmill +7 xp", pos = Vector3.new(4365.82, 997.14, -3632.9)},
+    {name = "🦄 Mythical Treadmill +6 xp", pos = Vector3.new(2661.67, 19.41, 932.09)},
+    {name = "📄 Spawn Treadmill +5 xp", pos = Vector3.new(-230.43, 8.16, -102.18)},
+    {name = "🏃‍♂️ Tiny Treadmill +1 xp", pos = Vector3.new(55.64, 5.16, 1947.60)}
 }
 
 local posLockConnection = nil
